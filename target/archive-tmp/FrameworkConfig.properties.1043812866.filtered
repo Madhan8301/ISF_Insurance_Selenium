@@ -1,0 +1,94 @@
+#--------Default Settings--------------
+RunType = Local
+
+#--------Browser Settings-------------- Chrome,Firefox,Edge
+Browser=Chrome
+
+#--------Headless Mode Settings-------(Y - Only for Firefox)-------
+Headless=false
+
+DriverAutodownload=false
+#--------Environment Settings--------------UAT,SIT,QA
+Environment=UAT
+
+#--------Application Type Settings--------------Web,Mobile,API
+Mode=Web
+MobileRuntype=Real device
+
+DBName=ProjectName
+
+Device = 9px48haifa6lkfsw,ANDROID,11
+
+
+#### Mandatory Mobile Credentials #####
+MobileAppPackageName =io.ionic.lolcelife
+MobileAppActivityName = io.ionic.lolcelife.MainActivity
+
+NodePath=C:\\Program Files\\nodejs\\node.exe
+Appiumpath=C:\\Program Files\\Appium Server GUI\\resources\\app\\node_modules\\appium\\build\\lib\\main.js
+
+#--------Automatically download Webdriver options  ------------------
+
+#-------------App Url--------------------------
+
+#-------------App Url--------------------------
+UATAppUrl=http://172.16.24.59:4200/maindashboard
+#UATAppUrl=https://10.100.1.233:9448/iliveAUto/agent/
+#UATAppUrl=https://talentx.kgisl.com/
+ILIVEAgentUrl=http://kgsrv-isf15.kgisl.com:4200/login
+ILIVEAdminUrl=http://kgsrv-isf15.kgisl.com:4200/login
+ILIVEBancaUrl=
+ILIVEAuto=http://kgsrv-isf15.kgisl.com:4200/login
+
+#
+#UAT_UserName = AUTOAMTION_TEST
+#UAT_Password = Kgisl@1234
+
+UAT_UserName = krishna
+UAT_Password = krishna
+
+
+ILIVEAutoAgent01=M30600-00
+ILIVEAutoAgent02=
+ILIVEAutoAgent03=
+ILIVEAutoAdmin01=M005
+ILIVEAutoBanka=
+
+IuatAutoAgent=
+IuatAutoAdmin=
+IuatAutoBanka=
+
+
+#-------------Database Connection Details ---------------------
+#DbURL =jdbc:oracle:thin:@10.100.7.200:1521
+#DbName =NSUREPOS
+#DbUsername =NSURECOREDEV
+#DbPassword =ORACLE438
+#SchemaNameILive =
+#SchemaNameIUAT = 
+#SchemaNameSQA = 
+
+DbURL =jdbc:oracle:thin:@172.16.24.72:1521
+DbName =PDBISFEVGN
+DbUsername =ISFEVGN
+DbPassword =ORACLE438
+SchemaNameILive =
+SchemaNameIUAT = 
+SchemaNameSQA = 
+
+#----------Wait for 30 Seconds 
+SToWait1 = 30
+ImplictWait = 20
+
+
+#----------Wait for 30 Seconds
+SToWait1 = 30
+ImplictWait = 30
+
+
+#-------------DB Settings-------------------
+CreateTable=Y
+
+#--------------Excel Settings---------------
+DataSheetName=TestData
+
